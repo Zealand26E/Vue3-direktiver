@@ -2,3 +2,10 @@ h1 {
     font-size: 50px;
     color: blue;
   }
+
+  .alert {
+    color: red;
+  }
+  .normal {
+    color: rgb(83, 192, 36);
+  }
