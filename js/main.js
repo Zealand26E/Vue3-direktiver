@@ -3,6 +3,7 @@ const app = Vue.createApp({
         return {
             intro: 'Welcome to my Vue template',
             name:'Martin',
+             age: 0,
             liste:[1,2,3,4,5],
             nr: 0,
             skjul: false,
@@ -22,6 +23,9 @@ const app = Vue.createApp({
         },
         skjulliste(){
             this.skjul = !this.skjul
+        },
+        addperson(){
+            this.listenavne.push({name: this.name, age: this.age})
         }
 
     },
